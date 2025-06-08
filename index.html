@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica do Movimento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Clínica do Movimento" class="logo"/>
+    <h1>Clínica do Movimento</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#treinos">Área do Aluno</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre a Clínica</h2>
+      <p>Treinos de força para 40+, 50+, 60+ com atendimento personalizado, reabilitação e foco em resultados reais.</p>
+    </section>
+
+    <section id="treinos">
+      <h2>Área do Aluno</h2>
+      <p>Acesse treinos exclusivos divididos por categorias:</p>
+      <ul>
+        <li><a href="#">WODs</a></li>
+        <li><a href="#">Cardios</a></li>
+        <li><a href="#">Hipertrofia e Emagrecimento</a></li>
+        <li><a href="#">Reabilitação</a></li>
+      </ul>
+      <div class="form-login">
+        <h3>Login</h3>
+        <form method="POST" action="#">
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Senha" required />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="cadastro">
+      <h2>Cadastro</h2>
+      <form method="POST" action="https://formspree.io/f/xwkgbwwl">
+        <input type="text" name="nome" placeholder="Nome completo" required />
+        <input type="text" name="cpf" placeholder="CPF" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="senha" placeholder="Senha" required />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Clínica do Movimento • Rua Celso Benites, 94</p>
+    <a href="https://wa.me/5553981537575" class="whatsapp-button" target="_blank">WhatsApp</a>
+  </footer>
+</body>
+</html>
